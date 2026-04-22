@@ -1,1 +1,230 @@
-# promosdobastiel.com.br
+
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doguinho Promoções - O Melhor Grupo de Ofertas</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap">
+    
+    <link rel="preload" as="image" href="https://i.ibb.co/GvLVw40d/Captura-de-tela-2025-07-10-230023.webp" fetchpriority="high">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '371545551321264');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=371545551321264&ev=PageView&noscript=1"
+    /></noscript>
+    <style>
+ 
+        /* Estilos de Fundo e Tela Cheia */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            background-color: #000; 
+            position: relative;
+        }
+
+        /* Top Bar Vermelha */
+        .top-bar {
+            background-color: #e41312; 
+            width: 100%;
+            padding: 10px 0;
+            font-size: 0.9em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #fff;
+            text-align: center;
+            position: fixed; 
+            top: 0;
+            left: 0;
+            z-index: 10; 
+        }
+        .top-bar p {
+            margin: 0;
+            text-shadow: 0 0 5px rgba(0,0,0,0.3);
+        }
+
+        /* Container Principal (O conteúdo) - CENTRALIZAÇÃO VIA MARGIN */
+        .main-content {
+            position: relative; 
+            z-index: 2;
+            max-width: 420px; 
+            width: 100%;
+            text-align: center;
+            background-color: transparent; 
+            padding: 30px 15px 40px; 
+            margin-top: 100px; 
+            margin-bottom: 50px;
+        }
+
+        /* Subtítulo de Rastreio (o que aparece primeiro no print) */
+        h2 {
+            color: #fff; 
+            font-size: 1.1em; 
+            margin-top: 5px;
+            margin-bottom: 5px; 
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-shadow: 0 0 8px rgba(0,0,0,0.8);
+        }
+        
+        /* Parágrafo de descrição (Produtos pela metade do preço) */
+        p {
+            margin-bottom: 25px; 
+            font-size: 0.9em; 
+            line-height: 1.4;
+            color: #fff; 
+            font-weight: 400;
+        }
+
+        /* Imagem */
+        .group-image {
+            width: 100%; 
+            max-width: 180px; 
+            height: auto;
+            object-fit: cover;
+            border-radius: 12px; 
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); 
+            border: 4px solid #dabdbd; 
+            transition: transform 0.3s ease; 
+        }
+
+        /* Botões */
+        .button-group {
+            margin-top: 40px; 
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 22px 15px; 
+            margin-bottom: 18px; 
+            border: none;
+            border-radius: 50px; 
+            font-size: 1.3em; 
+            font-weight: 700;
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.1s ease;
+            
+            box-shadow: 0 0 30px 0 rgba(28, 200, 51, 0.8), inset 0 -5px 0 0 rgba(0,0,0,0.2); 
+            text-shadow: 0 0 6px rgba(0,0,0,.3);
+        }
+        .btn:hover {
+            transform: translateY(2px); 
+            box-shadow: 0 0 15px 0 rgba(28, 200, 51, 0.8), inset 0 -3px 0 0 rgba(0,0,0,0.2);
+        }
+        .btn-whatsapp {
+            background-color: #1cc833; 
+        }
+        .btn-telegram {
+            background-color: #0088cc; 
+            box-shadow: 0 0 30px 0 rgba(0, 136, 204, 0.8), inset 0 -5px 0 0 rgba(0,0,0,0.2); 
+            margin-top: 25px; 
+        }
+        .btn-telegram:hover {
+            box-shadow: 0 0 15px 0 rgba(0, 136, 204, 0.8), inset 0 -3px 0 0 rgba(0,0,0,0.2);
+        }
+
+        /* Estatísticas e Footer */
+        .stats {
+            margin-top: 35px; 
+            font-size: 1.1em; 
+            font-weight: 600; 
+            color: #fff; 
+            padding-top: 20px;
+            letter-spacing: 1px;
+            text-shadow: 0 0 5px rgba(0,0,0,0.3);
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 0.8em;
+            color: #aaa;
+            font-weight: 200; 
+        }
+
+        /* AJUSTE PARA TELA CHEIA: Garante que o conteúdo centralizado pareça bem em desktops */
+        @media (min-width: 768px) {
+            .main-content {
+                margin-top: 150px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <p>🔴 APROVEITE AGORA AS MELHORES PROMOÇÕES DE 2025</p>
+    </div>
+
+    <div class="main-content">
+        
+        <h2>🔥 OFERTAS SECRETAS TODOS OS DIAS 🔥</h2>
+        <p>Produtos pela METADE DO PREÇO ✨</p>
+
+        <picture>
+            <source srcset="https://i.ibb.co/JRMXnVJC/promos-bastiel-compressed.jpg" type="image/webp">
+            
+            <img 
+                class="group-image" 
+                src="https://i.ibb.co/JRMXnVJC/promos-bastiel-compressed.jpg" 
+                alt="Logo do grupo Doguinho Promoções"
+            >
+        </picture>
+        
+        <div class="button-group">
+            
+            <button onclick="redirectToGroup('whatsapp')" class="btn btn-whatsapp">
+                👉 QUERO ECONOMIZAR AGORA
+            </button>
+            
+        </div>
+
+        <div class="stats">
+            ✨ JÁ SOMOS +50 MIL MEMBROS ✨
+        </div>
+        
+    </div>
+    
+    <script>
+        // SEUS LINKS MANTIDOS
+        const groupUrls = {
+            whatsapp: ' https://bit.ly/promosbastiel',  
+        };
+
+        function redirectToGroup(platform) {
+            const url = groupUrls[platform];
+            
+            // Rastreamento do evento 'Lead' antes de redirecionar
+            if (typeof fbq === 'function') {
+                fbq('track', 'Lead'); 
+            }
+
+            // Adiciona um pequeno delay para garantir que o Pixel dispare
+            setTimeout(() => {
+                window.location.href = url;
+            }, 300); 
+        }
+    </script>
+</body>
+</html>
